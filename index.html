@@ -1,1 +1,115 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upback Innovation Awards 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content {
+            margin: 2em 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gallery div {
+            flex: 1 1 30%;
+            margin: 0.5em;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .gallery div:hover img {
+            transform: scale(1.05);
+        }
+        .gallery h3 {
+            font-size: 1em;
+            color: #555;
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .gallery div:hover h3 {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Upback Innovation Awards 2024</h1>
+    </header>
+    <div class="container">
+        <section class="content">
+            <p>Welcome to the Upback Innovation Awards 2024! This prestigious event celebrates the most innovative and creative projects within the Roblox community. Each year, we recognize outstanding achievements and groundbreaking ideas that push the boundaries of what's possible in the world of Roblox.</p>
+            <p>The Upback Innovation Awards were first established in 2023, with the goal of highlighting the incredible talent and creativity within the Roblox developer community. The inaugural event was a huge success, showcasing a wide range of projects from various categories, including game design, scripting, and 3D modeling. The enthusiasm and participation from the community were overwhelming, setting a high standard for future awards.</p>
+            <p>This year, we continue the tradition with even more exciting categories and opportunities for developers to shine. We invite you to explore the gallery below, featuring some of the most impressive entries from this year's awards.</p>
+        </section>
+        <section class="gallery">
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.WVnx3DJLvNtbrQOWUL-5QwHaE7?rs=1&pid=ImgDetMain" alt="Image 1">
+                <h3>Innovative Game Design</h3>
+            </div>
+            <div>
+                <img src="https://cdn.now.gg/apps-content/com.roblox.client/game-tiles/roblox.jpg" alt="Image 2">
+                <h3>Creative Scripting Excellence</h3>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/R.4f13bb355377dc65e7d6ac9c03593b2d?rik=jZKRdxDtCv4zoA&pid=ImgRaw&r=0" alt="Image 3">
+                <h3>Outstanding 3D Modeling</h3>
+            </div>
+            <div>
+                <img src="https://i.pinimg.com/474x/93/77/81/93778176f3b799581fb5363f712c7182.jpg" alt="Image 4">
+                <h3>Best User Experience</h3>
+            </div>
+            <div>
+                <img src="https://staticg.sportskeeda.com/editor/2022/04/3d902-16509066449675-1920.jpg" alt="Image 5">
+                <h3>Innovative Visual Effects</h3>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Upback Innovation Awards. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript can be added here for interactivity
+        console.log("Welcome to Upback Innovation Awards 2024!");
+    </script>
+</body>
+</html>
